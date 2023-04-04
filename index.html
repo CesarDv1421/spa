@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/frontend/css/index.css">
+    <link rel="stylesheet" href="/frontend/css/notes.css">
+    <link rel="stylesheet" href="/frontend/css/notesid.css">
+    <link rel="stylesheet" href="/frontend/css/notFound.css">
+    <link rel="stylesheet" href="/frontend/css/signin.css">
+    <link rel="stylesheet" href="/frontend/css/signup.css">
+    <title>SPA</title>
+</head>
+
+<body>
+    <nav>
+        <ul class="navContainer">
+
+            <div class="firstNav">
+
+                <li>
+                    <a href="/notes" class="whiteColorNav" data-link>
+                        ToDo List SPA
+                    </a>
+                </li>
+
+            </div>
+
+            <div class="secondNav">
+
+                <li class="firstSecondNav">
+                    <a href="/auth/signup" class="whiteColorNav" data-link>
+                        signup
+                    </a>
+                </li>
+
+                <li>
+                    <a href="/auth/signin" onclick="localStorage.removeItem('token')" class="whiteColorNav" data-link>
+                        Log Out
+                    </a>
+                </li>
+
+            </div>
+
+        </ul>
+    </nav>
+
+    <section id="app">
+
+        
+
+    </section>
+
+    <script type="module" src='/frontend/js/index.js'></script>
+</body>
+
+</html>

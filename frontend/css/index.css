@@ -1,0 +1,50 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: 'ubuntu';
+    box-sizing: border-box;
+    font-size: 'Dubai-Bold';
+    list-style: none;
+    text-decoration: none;
+    color: rgb(90, 89, 89);
+}
+
+body {
+    width: 100%;
+    height: 100vh;
+    background-color: #eff4f6;
+}
+
+.navContainer {
+    display: flex;
+    justify-content: space-around;
+    background: #07358b;
+
+}
+
+.navContainer>* {
+    margin: 20px;
+    font-size: 25px;
+}
+
+.firstNav {
+    flex-grow: 2;
+}
+
+.secondNav {
+    flex-grow: 1;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.firstSecondNav {
+    margin: 0 50px;
+}
+
+.whiteColorNav  {
+    color: white;
+}
+
+section {
+    display: flex;
+}

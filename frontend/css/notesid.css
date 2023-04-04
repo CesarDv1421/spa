@@ -1,0 +1,22 @@
+.editNotesContainer {
+    width: 100vw;
+    height: 445px;
+    border: solid 3px gray;
+    margin: 100px 500px;
+    border-radius: 20px;
+    background-color: white;
+}
+
+.editNotes {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.editNotes  > input, textarea {
+    padding: 10px;
+    border: solid 2px gray;
+    border-radius: 10px;
+}
